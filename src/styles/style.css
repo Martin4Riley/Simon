@@ -5,7 +5,7 @@
 .main {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
   background-image: url("../../assets/images/rat.jpg");
   background-position: center;
   background-size: cover;
