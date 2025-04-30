@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./styles/style.css" />
+
+    <link rel="stylesheet" type="text/css" href="../slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="../slick/slick-theme.css" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="main">
+      <header class="header">
+        <div class="logo">
+          <img class="svg-icon" src="../assets/svg/tree.svg" alt="" />
+        </div>
+
+        <nav>
+          <ul class="navigation">
+            <li><a href="">Главная</a></li>
+            <li><a href="">О нас</a></li>
+            <li><a href="">Галерея</a></li>
+            <li><a href="">Контакты</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <div class="welcome">
+        <h1>Добро пожаловать в Карелию</h1>
+        <p>Приглашаем вас в весёлое путешествие по нашему региону</p>
+      </div>
+
+      <div class="icons">
+        <img class="svg-icon" src="../assets/svg/share.svg" alt="" />
+      </div>
+    </section>
+
+    <section>
+      <div class="text">
+        <h1>КАТАЛОГ</h1>
+        <p>Наша организация была создана для туристов <br> с целью ознакомления и распространения <br> культурного эпоса Республики "Карелия"</p>
+      </div>
+      <div class="your-class">
+        <figure>
+          <img class="your content" src="../assets/images/chert.jpg" alt="" />
+          <figcaption>Урочище "Чёртов стул</figcaption>
+        </figure>
+
+        <figure>
+          <img class="your content" src="../assets/images/kizhi.jpg" alt="" />
+          <figcaption>Остров "Кижи"</figcaption>
+        </figure>
+
+        <figure>
+          <img class="your content" src="../assets/images/kivach.jpg" alt="" />
+          <figcaption>Водопад "Кивач"</figcaption>
+        </figure>
+
+        <figure>
+          <img class="your content" src="../assets/images/ptz.jpg" alt="" />
+          <figcaption>Скульптура "Рыбаки"</figcaption>
+        </figure>
+
+        <figure>
+          <img class="your content" src="../assets/images/ruskeala.jpg" alt="" />
+          <figcaption>Парк "Рускеала"</figcaption>
+        </figure>
+
+        <figure>
+          <img class="your content" src="../assets/images/girvas.jpg" alt="" />
+          <figcaption>Вулкан Гирвас</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script type="text/javascript" src="../slick/slick.min.js"></script>
+
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $(".your-class").slick({
+          slidesToShow: 4,
+          slidesToScroll: 1,
+          autoplay: false,
+          dots: true,
+          arrows: true,
+          autoplaySpeed: 2000,
+        });
+      });
+    </script>
+  </body>
+</html>
