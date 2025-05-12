@@ -124,3 +124,14 @@
     font-family: century gothic;
   }
 }
+
+.catalog {
+
+}
+
+.catalog::before {
+  content: url('../../assets/images/backim.webp');
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.2;
+}
